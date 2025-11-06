@@ -18,6 +18,7 @@ main img {
     height: auto;
     border: 2px;
     box-shadow: 0 0 30px gray;
+    padding: 0px;
 }
 
 p {
