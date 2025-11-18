@@ -22,6 +22,7 @@ body {
 header, main, footer {
   width: 840px;
   margin: 0 auto;
+  font-family: var(--secondary-color)
 }
 
 
@@ -33,6 +34,7 @@ h1, h2 {
  nav, p, section, article {
   margin: 16px;
   padding: 8px;
+  font-family: var(--accent2-color);
 }
 
 .socialmedia a {
@@ -41,6 +43,10 @@ h1, h2 {
 
 .hero {
   position: relative;
+}
+
+.hero article{
+  position: absolute;
 }
 
 .hero img {
@@ -53,11 +59,11 @@ h1, h2 {
   position: absolute;
   top: 20px;
   width: 100%;
-  padding: 16px;
+  padding: 5px;
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
-  color: #fff; /* white text – make sure there is enough contrast with the background-color */
+  color: black/* white text – make sure there is enough contrast with the background-color */
 }
 
 article{
