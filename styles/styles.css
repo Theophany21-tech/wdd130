@@ -11,16 +11,24 @@ body{
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color:darkblue;
+    border-bottom: #333;
 }
 
 main img {
@@ -38,8 +46,14 @@ p {
     margin: 1rem;
 }
 
-main{
-    max-width: 840px;
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+main {
+  grid-column: 2/3;
+  margin: 1rem;
 }
 
 aside{
@@ -51,6 +65,10 @@ aside{
     color: #333;
     text-align: center;
     position: relative;
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2{
@@ -79,4 +97,9 @@ footer{
 
 .indent{
     padding-left: 2rem;
+}
+
+header, .grid , footer {
+  max-width: 840px;
+  margin: 0 auto;
 }
