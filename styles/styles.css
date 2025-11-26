@@ -80,6 +80,21 @@ aside img{
     height: auto;
 }
 
+article img{
+    float: left;
+    margin-right: 20px;
+}
+
+article p{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section p {
+    padding: auto;
+    margin-bottom: 20px;
+}
+
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
